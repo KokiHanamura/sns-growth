@@ -5,7 +5,7 @@ SNS 運用 PJT のリポジトリを立ち上げ、Phase 0（ジャンルリサ�
 
 ## タスクブレイクダウン
 - [x] リポジトリ sns-growth の雛形作成
-- [ ] GitHub private リポジトリ作成（gh インストール後）
+- [x] GitHub private リポジトリ作成・push
 - [x] リサーチ手法の調査 → strategy/research_method.md
 - [ ] ジャンル候補を 5〜10 個書き出す（strategy/research.md）
 - [ ] 候補ごとに競合アカウントを 3 つずつ調査
