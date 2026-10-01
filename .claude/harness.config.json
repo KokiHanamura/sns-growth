@@ -1,0 +1,21 @@
+{
+  "commands": {
+    "test": "",
+    "lint": "",
+    "typecheck": ""
+  },
+  "postEdit": [],
+  "verifyOnStop": false,
+  "scopes": {
+    "backend": [
+      "scripts/*"
+    ],
+    "frontend": [],
+    "tests": [
+      "tests/*"
+    ]
+  },
+  "protectedPaths": [],
+  "allowManagedEdits": false,
+  "notifySound": true
+}

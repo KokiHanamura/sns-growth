@@ -5,7 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # sns-growth
 
 SNS 運用アカウントを立ち上げ、フォロワー・エンゲージメントを伸ばすプロジェクト。
-ハーネス構成は `~/Introduction` をテンプレート元とする。
+ハーネスは `~/claude-harness` から配布（「ハーネスを最新にして」で更新）。
 
 ## Scope
 
@@ -25,7 +25,7 @@ SNS 運用アカウントを立ち上げ、フォロワー・エンゲージメ�
 
 ```
 sns-growth/
-  .claude/                  # ハーネス設定（Introduction から継承）
+  .claude/                  # ハーネス設定（claude-harness 管理）
   strategy/                 # ジャンル・ペルソナ・KPI・投稿方針
   accounts/                 # プラットフォーム別のプロフィール設定・運用ルール
   content/
@@ -48,6 +48,5 @@ sns-growth/
 
 ## Workflow
 
-- セッション開始: `python3 scripts/create_daily_plan.py "<作業内容>"`
-- `ai_todo.md` は Claude のみ編集（Humans: read-only）
-- コミット: 変更の意図（why）を中心に記述
+- 共通ワークフロー（日次フォルダ・Git・ハーネス）は `.claude/rules/harness.md`（`~/claude-harness` から配布）
+- セッション開始: `python3 .claude/scripts/daily_plan.py "<作業内容>"`
